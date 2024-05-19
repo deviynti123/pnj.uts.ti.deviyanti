@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Nim -->
+
+    <!-- Nama Alumni -->
+
+    <!-- Tempat Lahir -->
+
+    <!-- Tanggal Lahir -->
+
+    <!-- Alamat -->
+
+    <!-- Agama -->
+
+    <!-- Tlp/HP -->
+
+    <!-- Tahun Masuk -->
+
+    <!-- Tahun Lulus -->
+
+    <!-- Pekerjaan -->
+
+    <!-- Jabatan -->
+
+    <!-- Tombol Ubah -->
+
+    <EditText
+        android:id="@+id/editTextNim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="265dp"
+        android:layout_height="39dp"
+        android:hint="NIM"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <EditText
+        android:id="@+id/editTextNamaAlumni"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextNim"
+        android:layout_width="256dp"
+        android:layout_height="33dp"
+        android:hint="Nama Alumni"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <EditText
+        android:id="@+id/editTextTempatLahir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextNamaAlumni"
+        android:layout_width="247dp"
+        android:layout_height="33dp"
+        android:hint="Tempat Lahir"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <EditText
+        android:id="@+id/editTextTanggalLahir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTempatLahir"
+        android:layout_width="265dp"
+        android:layout_height="30dp"
+        android:hint="Tanggal Lahir"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/editTextAlamat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTanggalLahir"
+        android:layout_width="259dp"
+        android:layout_height="39dp"
+        android:hint="Alamat"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <EditText
+        android:id="@+id/editTextAgama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextAlamat"
+        android:layout_width="256dp"
+        android:layout_height="42dp"
+        android:hint="Agama"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <EditText
+        android:id="@+id/editTextTlpHp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextAgama"
+        android:layout_width="251dp"
+        android:layout_height="36dp"
+        android:hint="Tlp/HP"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <EditText
+        android:id="@+id/editTextTahunMasuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTlpHp"
+        android:layout_width="265dp"
+        android:layout_height="39dp"
+        android:hint="Tahun Masuk"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <EditText
+        android:id="@+id/editTextTahunLulus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTahunMasuk"
+        android:layout_width="253dp"
+        android:layout_height="39dp"
+        android:hint="Tahun Lulus"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <EditText
+        android:id="@+id/editTextPekerjaan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTahunLulus"
+        android:layout_width="272dp"
+        android:layout_height="33dp"
+        android:hint="Pekerjaan"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <EditText
+        android:id="@+id/editTextJabatan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPekerjaan"
+        android:layout_width="269dp"
+        android:layout_height="39dp"
+        android:hint="Jabatan"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        app
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ubah"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="667dp"
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="667dp" />
